@@ -1,0 +1,80 @@
+<!-- slightly changed original file (from Nehr) to make the Lada real rare on Namalsk (hardcore) -->
+
+<!-- Insert the following lines into the events.xml located in /mpmissions/namalsk.hardcore/db -->
+	<event name="VehicleNehr_PickupLada_Simple">
+		<nominal>1</nominal>
+		<min>0</min>
+		<max>3</max>
+		<lifetime>3000</lifetime>
+		<restock>0</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children> 
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_Simple"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_Simple_Green"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_Simple_Blue"/>
+		</children>
+	</event>
+	<event name="VehicleNehr_PickupLada">
+		<nominal>2</nominal>
+		<min>0</min>
+		<max>7</max>
+		<lifetime>3000</lifetime>
+		<restock>0</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children> 
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_Blue"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_Green"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_White"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_Toxic"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_Toxic_Blue"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Nehr_PickupLada_Toxic_Green"/>
+		</children>
+	</event>
+	<event name="VehicleNehr_PickupLada_Police">
+		<nominal>0</nominal>
+		<min>0</min>
+		<max>2</max>
+		<lifetime>3000</lifetime>
+		<restock>0</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children> 
+			<child lootmax="0" lootmin="0" max="2" min="0" type="Nehr_PickupLada_Police"/>
+		</children>
+	</event>
+	<event name="VehicleNehr_PickupLada_Fire">
+		<nominal>0</nominal>
+		<min>0</min>
+		<max>2</max>
+		<lifetime>3000</lifetime>
+		<restock>0</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children> 
+			<child lootmax="0" lootmin="0" max="2" min="0" type="Nehr_PickupLada_Fire"/>
+		</children>
+	</event>
+<!-- Nehr Lada END -->
