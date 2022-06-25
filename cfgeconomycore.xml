@@ -1,0 +1,7 @@
+<!-- add these lines to the cfgeconomycore.xml -->
+<!-- store all custom types.xml and cfgspawnabletypes.xml in the folder "custom_types" -->
+
+  <ce folder="custom_types">
+    <file name="Nehr_Pickup_Lada_types.xml" type="types" />
+		<file name="Nehr_Pickup_Lada_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
