@@ -2,7 +2,7 @@
 
 <!-- Insert the following lines into the events.xml located in /mpmissions/namalsk.hardcore/db -->
 	<event name="VehicleNehr_PickupLada_Simple">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<min>0</min>
 		<max>3</max>
 		<lifetime>3000</lifetime>
@@ -21,7 +21,7 @@
 		</children>
 	</event>
 	<event name="VehicleNehr_PickupLada">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<min>0</min>
 		<max>7</max>
 		<lifetime>3000</lifetime>
