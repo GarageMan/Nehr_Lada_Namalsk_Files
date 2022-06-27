@@ -1,7 +1,31 @@
 <!-- insert the following lines in the cfgeventspawns.xml sited in the folder /mpmissions/namalsk.hardcore or /namalsk.regular -->
 
 <!-- Nehr Lada START -->
-	<event name="Nehr_PickupLada_Toxic_Green">
+
+	<event name="VehicleNehr_PickupLada_Simple">
+		<pos x="6628.4" z="11390.4" a="-19.5988"/>
+		<pos x="6909.55" z="11348.8" a="32.6339"/>
+		<pos x="5062.95" z="8072.59" a="-174.814"/>
+		<pos x="4194.41" z="8021.23" a="-150.342"/>
+		<pos x="4935.15" z="6655.29" a="171.631"/>
+		<pos x="7681.34" z="7402.3" a="13.9702"/>
+		<pos x="7820.3" z="7629.93" a="-78.0565"/>
+		<pos x="6627.95" z="11287.4" a="148.614"/>
+		<pos x="6876.43" z="11204.3" a="67.818"/>
+		<pos x="2201.84" z="5761.02" a="-91.2934"/>
+		<pos x="6710.18" z="10993.5" a="-106.423"/>
+	</event>
+
+	<event name="VehicleNehr_PickupLada">
+		<pos x="8116.27" z="10894.6" a="0"/>
+		<pos x="7191.56" z="10881.1" a="-123.357"/>
+		<pos x="4943.78" z="8046.32" a="67.092"/>
+		<pos x="4335.16" z="4744.31" a="0"/>
+		<pos x="7234.02" z="7080.69" a="98.383"/>
+		<pos x="8139.39" z="10831.4" a="-114.669"/>
+		<pos x="5836.1" z="8735.22" a="-32.6896"/>
+		<pos x="7686.89" z="8731.69" a="-128.291"/>
+		<pos x="8100.59" z="10847.1" a="-0.815699"/>
 		<pos x="5786.3" z="10767.7" a="170.088"/>
 		<pos x="6508.49" z="9298.09" a="43.6145"/>
 		<pos x="5848.52" z="8651.94" a="7.13389"/>
@@ -17,12 +41,8 @@
 		<pos x="8271.42" z="10707" a="137.932"/>
 		<pos x="8058.9" z="11213.4" a="0"/>
 		<pos x="7558.67" z="11332.1" a="152.318"/>
-	</event>
-	<event name="Nehr_PickupLada_Toxic">
 		<pos x="4408.41" z="10730.1" a="-25.832"/>
 		<pos x="4837.54" z="6247.08" a="38.1009"/>
-	</event>
-	<event name="Nehr_PickupLada_Toxic_Blue">
 		<pos x="7144.92" z="10766.7" a="71.7348"/>
 		<pos x="5793.08" z="8694.67" a="75.1721"/>
 		<pos x="4329.39" z="8042.04" a="-67.229"/>
@@ -34,43 +54,13 @@
 		<pos x="8341.43" z="10785.2" a="-21.856"/>
 		<pos x="7586.3" z="11337.7" a="0.410179"/>
 	</event>
-	<event name="Nehr_PickupLada_Blue">
-		<pos x="5836.1" z="8735.22" a="-32.6896"/>
-		<pos x="7686.89" z="8731.69" a="-128.291"/>
-		<pos x="8100.59" z="10847.1" a="-0.815699"/>
-	</event>
-	<event name="Nehr_PickupLada_Police">
-		<pos x="4389.03" z="8069.79" a="-164.42"/>
-		<pos x="7659.14" z="7443.65" a="-29.0681"/>
-	</event>
-	<event name="Nehr_PickupLada_Simple_Blue">
-		<pos x="6628.4" z="11390.4" a="-19.5988"/>
-		<pos x="6909.55" z="11348.8" a="32.6339"/>
-		<pos x="5062.95" z="8072.59" a="-174.814"/>
-		<pos x="4194.41" z="8021.23" a="-150.342"/>
-		<pos x="4935.15" z="6655.29" a="171.631"/>
-		<pos x="7681.34" z="7402.3" a="13.9702"/>
-		<pos x="7820.3" z="7629.93" a="-78.0565"/>
-	</event>
-	<event name="Nehr_PickupLada_Simple">
-		<pos x="6627.95" z="11287.4" a="148.614"/>
-		<pos x="6876.43" z="11204.3" a="67.818"/>
-		<pos x="2201.84" z="5761.02" a="-91.2934"/>
-	</event>
-	<event name="Nehr_PickupLada_White">
-		<pos x="7191.56" z="10881.1" a="-123.357"/>
-		<pos x="4943.78" z="8046.32" a="67.092"/>
-		<pos x="4335.16" z="4744.31" a="0"/>
-		<pos x="7234.02" z="7080.69" a="98.383"/>
-		<pos x="8139.39" z="10831.4" a="-114.669"/>
-	</event>
-	<event name="Nehr_PickupLada_Fire">
+
+	<event name="VehicleNehr_PickupLada_Fire">
 		<pos x="6956.77" z="11453.3" a="-34.2424"/>
 	</event>
-	<event name="Nehr_PickupLada_Green">
-		<pos x="8116.27" z="10894.6" a="0"/>
-	</event>
-	<event name="Nehr_PickupLada_Simple_Green">
-		<pos x="6710.18" z="10993.5" a="-106.423"/>
+
+	<event name="VehicleNehr_PickupLada_Police">
+		<pos x="4389.03" z="8069.79" a="-164.42"/>
+		<pos x="7659.14" z="7443.65" a="-29.0681"/>
 	</event>
 <!-- Nehr Lada END -->
